@@ -82,7 +82,6 @@ def unificar_pdfs():
     else:
         messagebox.showwarning("Advertencia", "No se han seleccionado archivos PDF.")
 
-
 # Limpiar los archivos temporales extraídos
 def limpiar_temporary_files():
     folder = "temp_pdf_folder"
